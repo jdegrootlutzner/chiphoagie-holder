@@ -1,1 +1,112 @@
-Hello World!
+<!DOCTYPE html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            width: 90%
+        }
+        .header {
+            margin-left: 5%;
+        }
+        .feed {
+            margin-left: 5%;
+            width: 70%;
+
+        }
+        .sidebar {
+            margin-left: 10%;
+            width: 15%
+        }
+        #description {
+            margin-bottom: 80px;
+        }
+
+        img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+    }
+        .alert{
+            color: red;
+            text-decoration-style: double;
+        }
+    .item {
+        margin-bottom: 100px;
+    }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="header">
+        <nav>
+        
+        <h1>
+            ChipHoagie.com
+        </h1>
+        </nav>
+        <div id="description">
+            <div>Take a look at some of the prototype designs before the Ruby on Rails web app is built.</div>
+            <div> <span class="alert">Click</span> on a prototype to launch the Shiny App.</div>
+            <div>Do you want to see the code? Reach out to me by email and I can share the Github repo</div>
+            </div>
+    </div>
+        <div class="container">
+        <div class="feed">
+       
+         
+                <div class="item">
+                    <a href="https://jdegrootlutzner.shinyapps.io/course-graph-shiny-mvp/">
+                        <img src="assets/images/course-comparison-prototype.gif" alt="Hand drawn mockup of the course comparison tool">
+                        <div>Launch App</div>
+                    </div>
+                    <div class="item">
+                    </a>
+                    <a href="https://jdegrootlutzner.shinyapps.io/course-graph-shiny-mvp/">
+                        <img src="assets/images/course-comparison-prototype.png" alt="Shiny app prototype of the course comparison functionaility">
+                        <div>Launch App</div>
+
+                    </a>
+                </div>
+                    <div class="item">
+                    <a href="https://jdegrootlutzner.shinyapps.io/network-app/">
+                        <img src="assets/images/network-analysis-prototype.png" alt="Shiny app prototype of the network analysis">
+                        <div>Launch App</div>
+
+                    </a>
+                </div>
+                <div class="item">
+                    <div>Why am I showing you snippets of uncommented code? </div>
+                    <div>These are examples of two accomplishments I am proud of. </div>
+                        <div>1) I translated <a href="http://www.glicko.net/research/multicompetitor.pdf">a research paper</a> into code! </div>
+                        
+                    <div>2) I optimized that code to run on a huge dataset!</div>
+                    <img src="assets/images/brute-force.png" alt="Slow but working code">
+                    <div>Above is the bulk of the Netwon Raphson algorithm in brute force.</div>
+                    <img src="assets/images/optimized.png" alt="Optimized and parallelized code.">
+                    <div>Here is the optimized version of the Newton Raphson algorithm</div>
+                    <div>I would be happy to explain the algorithm and explain how I worked with large matrices.</div>
+                    <div>If you made it this far please reach out!</div>
+                </div>
+            
+
+        </div>
+
+        <div class="sidebar">
+        <div>Sidebar</div>
+            <img src="assets/images/course-comparison-prototype.gif" alt="Hand drawn mockup of the course comparison tool">
+            <img src="assets/images/course-comparison-prototype.png" alt="Shiny app prototype of the course comparison functionaility">
+            <img src="assets/images/network-analysis-prototype.png" alt="Shiny app prototype of the network analysis">
+            <img src="assets/images/brute-force.png" alt="Slow but working code">
+            <img src="assets/images/optimized.png" alt="Optimized and parallelized code.">
+
+        </div>
+    </div>
+
+
+        
+        <footer></footer>
+    </main>
+</body>
+
+</html>
